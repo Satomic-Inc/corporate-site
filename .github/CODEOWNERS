@@ -1,3 +1,9 @@
 # Code owners for corporate-site.
-# The corporate team (RyanRatcliff, ipmeyer) must review PRs.
-* @Satomic-Inc/corporate
+# Either the corporate or the development team can review PRs.
+#
+# Both teams are listed on ONE line on purpose: GitHub applies only the last
+# matching rule, and a single line means an approving review from *either*
+# team satisfies the code-owner requirement. Splitting them across two `*`
+# lines would silently drop the first team; listing them as separate rules
+# would require approval from both.
+* @Satomic-Inc/corporate @Satomic-Inc/development
